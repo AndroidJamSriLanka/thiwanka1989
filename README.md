@@ -1,3 +1,3 @@
 # thiwanka1989
-app idea
-app ui
+#app idea
+#app ui
