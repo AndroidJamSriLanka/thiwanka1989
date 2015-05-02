@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">MediaApp</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="edit_text">Edit Text</string>
+    <string name="action_import_music">Import Music</string>
+    <string name="click_to_import">Click anywhere to select images</string>
+    <string name="go">Back</string>
+</resources>

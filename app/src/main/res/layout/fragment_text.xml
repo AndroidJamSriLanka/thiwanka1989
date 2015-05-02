@@ -1,0 +1,55 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity$PlaceholderFragment"
+    android:id="@+id/root">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/image" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/picture_text_1"
+        android:minWidth="200dp"
+        android:minHeight="50dp"
+        android:textAlignment="gravity"
+        android:gravity="center"
+        android:focusableInTouchMode="false"
+        android:focusable="false"
+        android:enabled="true"
+        android:layout_marginTop="46dp"
+        android:layout_centerHorizontal="true"
+        android:hint="Click To Type" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/picture_text_2"
+        android:minWidth="200dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="46dp"
+        android:minHeight="50dp"
+        android:textAlignment="gravity"
+        android:gravity="center"
+        android:focusableInTouchMode="false"
+        android:focusable="false"
+        android:enabled="true"
+        android:hint="Click To Type" />
+
+    <EditText
+        android:imeOptions="actionDone"
+        android:singleLine="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/picture_edit"
+        android:layout_alignParentTop="true"
+        android:visibility="gone" />
+
+</RelativeLayout>
